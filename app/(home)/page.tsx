@@ -29,7 +29,7 @@ export default async function HomePage() {
               探寻真相，拒绝言论审查
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-              一个致力于保存和传播真实历史记忆的开源图书档案库。在这里，我们对抗政治审查对真相的封锁，守护历史的记忆。
+              一个致力于保存和传播真实历史记忆的被共产党禁止传播的图书档案库。在这里，我们对抗政治审查对真相的封锁，守护言论自由的价值。
             </p>
           </div>
 
