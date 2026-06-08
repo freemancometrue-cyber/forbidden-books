@@ -1,4 +1,4 @@
-# [天朝禁书](https://books.xijinping.one)
+# [天朝禁书](https://books.laqingdan.org)
 
 ## 书目
 

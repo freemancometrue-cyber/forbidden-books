@@ -13,9 +13,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: {
     template: '%s | 天朝禁书',
-    default: '天朝禁书',
+    default: '天朝禁书-拉清单www.laqindan.org',
   },
-  description: '天朝禁书',
+  description: '天朝禁书-拉清单www.laqindan.org',
 };
 
 export default function Layout({ children }: { children: ReactNode }) {
@@ -38,7 +38,7 @@ export default function Layout({ children }: { children: ReactNode }) {
               nextPage: '下一页',
               previousPage: '上一页',
               chooseTheme: '选择主题',
-              editOnGithub: '在 GitHub 上编辑',
+              editOnGithub: '访问拉清单www.laqindan.org',
             },
           }}
         >
