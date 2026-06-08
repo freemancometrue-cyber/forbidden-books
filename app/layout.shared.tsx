@@ -8,7 +8,7 @@ import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
  */
 export const baseOptions: BaseLayoutProps = {
   nav: {
-    title: '天朝禁书-拉清单www.laqindan.org',
+    title: '天朝禁书-拉清单www.laqingdan.org',
   },
   // see https://fumadocs.dev/docs/ui/navigation/links
   githubUrl: 'https://www.laqingdan.org',

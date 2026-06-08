@@ -15,4 +15,4 @@
 | [中国底层访谈录](/corpse-walker) | 廖亦武 | |
 | [红色赌盘](/roulette) | 沈栋 | 温家宝 |
 
-# 拉清单官网 www.laqindan.org
+# 拉清单官网 www.laqingdan.org
