@@ -11,6 +11,6 @@ export const baseOptions: BaseLayoutProps = {
     title: '天朝禁书',
   },
   // see https://fumadocs.dev/docs/ui/navigation/links
-  githubUrl: 'https://github.com/xijinping0/books',
+  // githubUrl: 'https://github.com/freemancometrue-cyber/forbidden-books',
   links: [],
 };

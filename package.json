@@ -25,13 +25,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xijinping0/books.git"
+    "url": "git+https://github.com/f"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xijinping0/books/issues"
+    "url": "https://github.com/f"
   },
-  "homepage": "https://github.com/xijinping0/books#readme",
+  "homepage": "https://github.com/f",
   "dependencies": {
     "@orama/orama": "^3.1.14",
     "@orama/stopwords": "^3.1.14",

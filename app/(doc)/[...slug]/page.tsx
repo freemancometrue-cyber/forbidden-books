@@ -26,8 +26,8 @@ export default async function Page(props: { params: Promise<{ slug?: string[] }>
         style: 'clerk',
         footer: (
           <div className="flex flex-col gap-2">
-            <Link
-              href={`https://github.com/xijinping0/books/blob/main/content/${page.path}`}
+            {/*<Link
+              href={`https://github.com/freemancometrue-cyber/forbidden-books/blob/main/content/${page.path}`}
               rel="noreferrer noopener"
               className="text-sm text-fd-muted-foreground hover:text-fd-accent-foreground transition-colors [overflow-wrap:anywhere]"
               external
@@ -35,6 +35,7 @@ export default async function Page(props: { params: Promise<{ slug?: string[] }>
             >
               在 GitHub 上编辑此页
             </Link>
+            */}
             {/*<div className="my-10 flex flex-col gap-2">*/}
             {/*  <h2>*/}
             {/*    <b>评论</b>*/}
