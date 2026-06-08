@@ -26,7 +26,7 @@ export default async function HomePage() {
         <div className="container relative z-10 py-16 md:py-24 max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-500 dark:from-neutral-100 dark:to-neutral-500">
-              探寻真相，拒绝遗忘
+              探寻真相，拒绝言论审查
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
               一个致力于保存和传播真实历史记忆的开源图书档案库。在这里，我们对抗政治审查对真相的封锁，守护历史的记忆。
