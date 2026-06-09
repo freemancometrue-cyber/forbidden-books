@@ -9,9 +9,9 @@ import { Metadata } from 'next';
 export async function generateMetadata(): Promise<Metadata> {
   const page = source.getPage(['en']);
   if (!page) return {};
-  
+
   return {
-    title: { absolute: page.data.title as string },
+    title: { absolute: page.data.title as string },//读取en.md里面的定义
     description: page.data.description,
   };
 }

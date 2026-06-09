@@ -11,12 +11,13 @@ const inter = Inter({
 });
 
 import { SITE_CONFIG } from '@/lib/constants';
-
+//它的作用是给全站定一个**“保底规矩”**
 export const metadata: Metadata = {
   title: {
     template: `%s | ${SITE_CONFIG.title}`,
-    default: SITE_CONFIG.title,
+    default: SITE_CONFIG.title, //首页的标题默认就是这个
   },
+  //只要某个页面（比如《夹边沟记事》）自己写了标题和描述，那就优先用它自己的！” “如果某个页面太懒了，什么都没写（或者是首页没取名字），那就拿 layout.tsx 里的 default 标题和 description 描述来兜底/顶替
   description: SITE_CONFIG.description,
 };
 
