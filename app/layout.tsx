@@ -12,8 +12,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | 天朝禁书',
-    default: '天朝禁书档案库-拉清单www.laqingdan.org',
+    template: '%s | 天朝禁书-拉清单',
+    default: '天朝禁书-拉清单',
   },
   description: '天朝禁书-拉清单www.laqingdan.org',
 };
