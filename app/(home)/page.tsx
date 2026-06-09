@@ -9,9 +9,13 @@ import { Metadata } from 'next';
 export async function generateMetadata(): Promise<Metadata> {
   const page = source.getPage([]);
   if (!page) return {};
-  
+
   return {
-    title: page.data.title,
+    //先去看看 index.md 里面有没有写标题？（? 的作用）
+    //如果有写： 就把写的那个标题拿过来，并且用 absolute，绝对不要加 | 小尾巴。
+    //如果没有写（像您刚刚把它删空了）： 就返回一个 undefined（代表什么都没有）。
+    //一旦它收到 undefined（没拿到页面专门的标题），它就会立刻跑去问全局大哥（也就是在 constants.ts 里设定的 天朝禁书-拉清单），然后把它作为标题显示出来。
+    title: page.data.title ? { absolute: page.data.title as string } : undefined,
     description: page.data.description,
   };
 }

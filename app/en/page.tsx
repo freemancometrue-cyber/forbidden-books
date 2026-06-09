@@ -11,7 +11,7 @@ export async function generateMetadata(): Promise<Metadata> {
   if (!page) return {};
   
   return {
-    title: page.data.title,
+    title: { absolute: page.data.title as string },
     description: page.data.description,
   };
 }
