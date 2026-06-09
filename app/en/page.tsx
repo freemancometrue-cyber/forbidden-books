@@ -5,13 +5,15 @@ import { baseOptions } from '@/app/layout.shared';
 import { HomeLayout } from 'fumadocs-ui/layouts/home';
 import React from 'react';
 import { Metadata } from 'next';
+import { SITE_CONFIG } from '@/lib/constants';
 
 export async function generateMetadata(): Promise<Metadata> {
   const page = source.getPage(['en']);
   if (!page) return {};
 
   return {
-    title: { absolute: page.data.title as string },//读取en.md里面的定义
+    //title: { absolute: page.data.title as string },//读取en.md里面的定义
+    title: page.data.title ? { absolute: page.data.title as string } : SITE_CONFIG.title,
     description: page.data.description,
   };
 }
