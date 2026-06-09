@@ -14,5 +14,16 @@ export const baseOptions: BaseLayoutProps = {
   },
   // see https://fumadocs.dev/docs/ui/navigation/links
   githubUrl: SITE_CONFIG.url,
-  links: [],
+  links: [
+    {
+      text: '🌐 English',
+      url: '/en',
+      active: 'nested-url',
+    },
+    {
+      text: '🌐 中文',
+      url: '/',
+      active: 'nested-url',
+    },
+  ],
 };
