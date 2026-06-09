@@ -1,6 +1,6 @@
 ---
-title: Forbidden Books Archive - LaQingDan
-description: Forbidden Books Archive - www.laqingdan.org
+title: Chinese Forbidden Books Archive - LaQingDan.org
+description: Chinese Forbidden Books Archive - www.laqingdan.org
 ---
 
 # Forbidden Books Archive
