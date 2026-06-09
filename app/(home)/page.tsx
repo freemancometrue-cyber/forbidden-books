@@ -4,6 +4,17 @@ import defaultMdxComponents from 'fumadocs-ui/mdx';
 import { baseOptions } from '@/app/layout.shared';
 import { HomeLayout } from 'fumadocs-ui/layouts/home';
 import React from 'react';
+import { Metadata } from 'next';
+
+export async function generateMetadata(): Promise<Metadata> {
+  const page = source.getPage([]);
+  if (!page) return {};
+  
+  return {
+    title: page.data.title,
+    description: page.data.description,
+  };
+}
 
 export default async function HomePage() {
   const page = source.getPage([]);

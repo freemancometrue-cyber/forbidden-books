@@ -1,6 +1,6 @@
 ---
-title: 天朝禁书
-description: 收录中国大陆被禁书籍，记录真实历史，拒绝遗忘。
+title: 拉清单-天朝禁书
+description: 拉清单-天朝禁书www.laqingdan.org
 ---
 
 # 天朝禁书档案库

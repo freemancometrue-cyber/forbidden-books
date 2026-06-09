@@ -10,12 +10,14 @@ const inter = Inter({
   subsets: ['latin'],
 });
 
+import { SITE_CONFIG } from '@/lib/constants';
+
 export const metadata: Metadata = {
   title: {
-    template: '%s | 天朝禁书-拉清单',
-    default: '天朝禁书-拉清单',
+    template: `%s | ${SITE_CONFIG.title}`,
+    default: SITE_CONFIG.title,
   },
-  description: '天朝禁书-拉清单www.laqingdan.org',
+  description: SITE_CONFIG.description,
 };
 
 export default function Layout({ children }: { children: ReactNode }) {

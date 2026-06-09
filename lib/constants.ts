@@ -1,3 +1,10 @@
+export const SITE_CONFIG = {
+  title: '天朝禁书-拉清单',
+  navTitle: '天朝禁书-拉清单www.laqingdan.org',
+  description: '拉清单-天朝禁书www.laqingdan.org',
+  url: 'https://www.laqingdan.org',
+};
+
 export const BOOK_NAMES: Record<string, string> = {
   lovers: '习近平和他的情人们',
   'red-sun': '红太阳是怎样升起的',

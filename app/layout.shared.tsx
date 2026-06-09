@@ -6,11 +6,13 @@ import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
  * Home Layout: app/(home)/layout.tsx
  * Docs Layout: app/docs/layout.tsx
  */
+import { SITE_CONFIG } from '@/lib/constants';
+
 export const baseOptions: BaseLayoutProps = {
   nav: {
-    title: '天朝禁书档案库-拉清单www.laqingdan.org',
+    title: SITE_CONFIG.navTitle,
   },
   // see https://fumadocs.dev/docs/ui/navigation/links
-  githubUrl: 'https://www.laqingdan.org',
+  githubUrl: SITE_CONFIG.url,
   links: [],
 };
